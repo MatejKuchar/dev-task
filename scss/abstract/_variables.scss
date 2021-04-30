@@ -1,0 +1,27 @@
+//COlORS
+$color-white: #fff;
+$color-black: #000;
+$color-grey: #727272;
+$color-red: #fe688b;
+$color-blue: #1a50e8;
+$gradient-primary: linear-gradient(
+  90deg,
+  rgba(38, 84, 232, 1) 50%,
+  rgba(151, 120, 228, 1) 100%
+);
+$gradient-form: linear-gradient(white, white),
+  radial-gradient(circle at top left, #154fe8, #a97de4);
+
+$shadow-light: 13px 15px 15px 0px rgba(0, 0, 0, 0.08);
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 4rem;
+
+//FONT
+$default-font-size: 1.6rem;
+
+//IMAGES
+$section-image: "https://pre00.deviantart.net/4af3/th/pre/i/2014/170/e/f/mountain_landscape_by_ferdinandladera-d7n16ov.jpg";
