@@ -108,10 +108,6 @@ body {
   display: none !important;
 }
 
-.active-link {
-  color: $color-red !important;
-}
-
 .stop-scrolling {
   height: 100%;
   overflow: hidden !important;
@@ -227,6 +223,13 @@ body {
     color: $color-black;
     text-transform: capitalize;
     font-weight: 400;
+    transition: all 0.25s $easeOutCirc;
+
+    &:hover,
+    &:focus {
+      color: $color-red;
+      transition: all 0.25s $easeOutCirc;
+    }
   }
 
   &__right {

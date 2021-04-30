@@ -184,9 +184,6 @@ body {
 .hide {
   display: none !important; }
 
-.active-link {
-  color: #fe688b !important; }
-
 .stop-scrolling {
   height: 100%;
   overflow: hidden !important; }
@@ -270,7 +267,11 @@ body {
   .navbar__link {
     color: #000;
     text-transform: capitalize;
-    font-weight: 400; }
+    font-weight: 400;
+    transition: all 0.25s cubic-bezier(0, 0.55, 0.45, 1); }
+    .navbar__link:hover, .navbar__link:focus {
+      color: #fe688b;
+      transition: all 0.25s cubic-bezier(0, 0.55, 0.45, 1); }
   .navbar__right {
     display: flex;
     align-items: center; }
