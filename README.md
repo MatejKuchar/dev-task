@@ -1,3 +1,3 @@
 # Dev Task
 
- Website [Demo](https://duckduckgo.com).
+ Website [Demo](https://matejkuchar.github.io/dev-task/).
