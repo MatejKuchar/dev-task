@@ -5,14 +5,14 @@ $color-grey: #727272;
 $color-red: #fe688b;
 $color-blue: #1a50e8;
 $gradient-primary: linear-gradient(
-  90deg,
-  rgba(38, 84, 232, 1) 50%,
-  rgba(151, 120, 228, 1) 100%
+  245deg,
+  rgba(151, 120, 228, 1) 25%,
+  rgba(38, 84, 232, 1) 70%
 );
 $gradient-form: linear-gradient(white, white),
   radial-gradient(circle at top left, #154fe8, #a97de4);
-
 $shadow-light: 13px 15px 15px 0px rgba(0, 0, 0, 0.08);
+$easeOutCirc: cubic-bezier(0, 0.55, 0.45, 1);
 
 // GRID
 $grid-width: 114rem;
